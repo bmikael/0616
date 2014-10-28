@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Login App</string>
+    <string name="action_settings">設定</string>
+    <string name="login_title">歡迎!</string>
+    <string name="username">帳號</string>
+    <string name="password">密碼</string>
+    <string name="repeatPassword">重新輸入密碼</string>  
+    <string name="login">登入</string>
+    <string name="register">註冊</string>
+    <string name="register_title">註冊</string>
+    <string name="signup">沒有帳號? 註冊</string>
+    <string name="backtologin">已有帳號? 登入</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_splash_screen">起始畫面</string>
+
+</resources>
