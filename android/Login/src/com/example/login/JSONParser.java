@@ -9,6 +9,7 @@ import java.util.List;
 
 import org.apache.http.HttpEntity;
 import org.apache.http.HttpResponse;
+import org.apache.http.HttpStatus;
 import org.apache.http.NameValuePair;
 import org.apache.http.client.ClientProtocolException;
 import org.apache.http.client.entity.UrlEncodedFormEntity;
@@ -62,7 +63,7 @@ public class JSONParser {
 				HttpResponse httpResponse = httpClient.execute(httpPost);
 
 				// Http connect success.
-				if (httpResponse.getStatusLine().getStatusCode() == 200) {
+				if (httpResponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
 					HttpEntity httpEntity = httpResponse.getEntity();
 					is = httpEntity.getContent();
 				} else {
@@ -89,7 +90,7 @@ public class JSONParser {
 
 				// Http connect success.
 				HttpResponse httpResponse = httpClient.execute(httpGet);
-				if (httpResponse.getStatusLine().getStatusCode() == 200) {
+				if (httpResponse.getStatusLine().getStatusCode() == HttpStatus.SC_OK) {
 					HttpEntity httpEntity = httpResponse.getEntity();
 					is = httpEntity.getContent();
 				} else {
