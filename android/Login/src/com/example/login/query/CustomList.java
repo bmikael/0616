@@ -1,4 +1,4 @@
-package com.example.login;
+package com.example.login.query;
 
 import java.util.ArrayList;
 
@@ -8,6 +8,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.TextView;
+
+import com.example.login.R;
 
 public class CustomList extends BaseAdapter {
 
@@ -35,7 +37,7 @@ public class CustomList extends BaseAdapter {
 	@Override
 	public long getItemId(int position) {
 		// TODO Auto-generated method stub
-		return  position;
+		return position;
 	}
 
 	@Override
@@ -52,7 +54,7 @@ public class CustomList extends BaseAdapter {
 			holder = new ViewHolder();
 			holder.id = (TextView) row.findViewById(R.id.itemID);
 			holder.username = (TextView) row.findViewById(R.id.itemUsername);
-			holder.password = (TextView) row.findViewById(R.id.itemPassword);			
+			holder.password = (TextView) row.findViewById(R.id.itemPassword);
 			row.setTag(holder);
 		} else {
 			// get components from ViewHolder
@@ -60,9 +62,9 @@ public class CustomList extends BaseAdapter {
 		}
 
 		Item item = data.get(position);
-		holder.id.setText("ID : " + item.getId());	
+		holder.id.setText("ID : " + item.getId());
 		holder.username.setText("username : " + item.getUsername());
-		holder.password.setText("password : " + item.getPassword());		
+		holder.password.setText("password : " + item.getPassword());
 		return row;
 	}
 
@@ -71,6 +73,5 @@ public class CustomList extends BaseAdapter {
 		TextView username;
 		TextView password;
 	}
-
 
 }

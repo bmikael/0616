@@ -2,12 +2,15 @@
  * Reference : http://www.androidhive.info/2013/07/how-to-implement-android-splash-screen-2/
  * 
  */
-package com.example.login;
+package com.example.login.splashscreen;
 
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.example.login.R;
+import com.example.login.loginmodule.LoginActivity;
 
 public class SplashScreen extends Activity {
 

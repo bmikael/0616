@@ -3,18 +3,32 @@
 
     <string name="app_name">Login App</string>
     <string name="action_settings">Settings</string>
-    <string name="login_title">Welcome!</string>
-    <string name="username">Account</string>
-    <string name="password">Password</string>
-    <string name="repeatPassword">Re-Password</string>    
-    <string name="login">Login</string>
-    <string name="register">Register</string>
-    <string name="register_title">Register</string>
-    <string name="signup">Don\'t have account? Sign Up</string>
-    <string name="backtologin">Already has account! Login here</string>
-    <string name="title_activity_register">RegisterActivity</string>
     <string name="hello_world">Hello world!</string>
+
+    <!-- MainActivity activity -->
     <string name="title_activity_main">MainActivity</string>
-    <string name="title_activity_splash_screen">SplashScreen</string>
+
+    <!-- SplashScreen activity -->
+    <string name="splash_title">Welcome!</string>
+    <string name="splash_screen_activity_title">LoginTest</string>
+
+    <!-- LoginActivity activity -->
+    <string name="login_activity_title">Login</string>
+    <string name="login_title">Welcome!</string>
+    <string name="login_username">Account</string>
+    <string name="login_password">Password</string>
+    <string name="login_button">Login</string>
+    <string name="signup">Don\'t have account? Sign Up</string>
+    <string name="login_activity_loading_progress_dialog_context">Login&#8230;, Please wait</string>
+
+    <!-- RegisterActivity activity -->
+    <string name="register_activity_title">Register</string>
+    <string name="register_title">Register</string>
+    <string name="register_username">Account</string>
+    <string name="register_password">Password</string>
+    <string name="register_repeatPassword">Re-Password</string>
+    <string name="register_button">Register</string>
+    <string name="backtologin">Already has account! Login here</string>
+    <string name="Register_activity_loading_progress_dialog_context">Register&#8230;, Please wait</string>
 
 </resources>

@@ -1,4 +1,4 @@
-package com.example.login;
+package com.example.login.query;
 
 public class Item {
 	private String id;

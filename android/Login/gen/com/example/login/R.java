@@ -60,22 +60,43 @@ public final class R {
         public static final int list_single=0x7f030004;
     }
     public static final class string {
+        public static final int Register_activity_loading_progress_dialog_context=0x7f060014;
         public static final int action_settings=0x7f060001;
         public static final int app_name=0x7f060000;
-        public static final int backtologin=0x7f06000a;
-        public static final int hello_world=0x7f06000c;
-        public static final int login=0x7f060006;
-        public static final int login_title=0x7f060002;
-        public static final int password=0x7f060004;
-        public static final int register=0x7f060007;
-        public static final int register_title=0x7f060008;
-        public static final int repeatPassword=0x7f060005;
-        public static final int signup=0x7f060009;
-        public static final int title_activity_main=0x7f06000d;
-        public static final int title_activity_register=0x7f06000b;
-        public static final int title_activity_splash_screen=0x7f06000e;
-        public static final int username=0x7f060003;
-        public static final int welcome=0x7f06000f;
+        public static final int backtologin=0x7f060013;
+        public static final int hello_world=0x7f060002;
+        public static final int login_activity_loading_progress_dialog_context=0x7f06000c;
+        /**  LoginActivity activity 
+ LoginActivity activity 
+ LoginActivity activity 
+         */
+        public static final int login_activity_title=0x7f060006;
+        public static final int login_button=0x7f06000a;
+        public static final int login_password=0x7f060009;
+        public static final int login_title=0x7f060007;
+        public static final int login_username=0x7f060008;
+        /**  RegisterActivity activity 
+ RegisterActivity activity 
+ RegisterActivity activity 
+         */
+        public static final int register_activity_title=0x7f06000d;
+        public static final int register_button=0x7f060012;
+        public static final int register_password=0x7f060010;
+        public static final int register_repeatPassword=0x7f060011;
+        public static final int register_title=0x7f06000e;
+        public static final int register_username=0x7f06000f;
+        public static final int signup=0x7f06000b;
+        public static final int splash_screen_activity_title=0x7f060005;
+        /**  SplashScreen activity 
+ SplashScreen activity 
+ SplashScreen activity 
+         */
+        public static final int splash_title=0x7f060004;
+        /**  MainActivity activity 
+ MainActivity activity 
+ MainActivity activity 
+         */
+        public static final int title_activity_main=0x7f060003;
     }
     public static final class style {
         /** 

@@ -15,7 +15,10 @@
 			$count++;
 		}
 		
-		die(json_encode(array('user' => $response)));
+		if($count!=0)
+		{
+			die(json_encode(array('user' => $response)));
+		}
 	}
 ?>
 <form action="query.php" method="post">
